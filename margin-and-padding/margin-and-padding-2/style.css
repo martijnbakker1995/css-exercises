@@ -1,27 +1,41 @@
 body {
   background: #eee;
   font-family: sans-serif;
-}
+  }
 
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  border: 10px white;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 0px;
+
 }
 
 .content {
   background: #e3f4ff;
+  padding: 10px;
+  margin-bottom: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 10px;
+  text-align: center;
+  
 }
 
 button {
   background: white;
-  border: 1px solid #eee;
+  border: white;
+  display: block;
+  margin: 0px auto; /*dont understand why this centers it */
+  padding: 8px 20px;
 }
